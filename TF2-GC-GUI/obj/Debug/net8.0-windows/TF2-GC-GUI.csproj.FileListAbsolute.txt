@@ -1,0 +1,17 @@
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\bin\Debug\net8.0-windows\TF2-GC-GUI.exe
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\bin\Debug\net8.0-windows\TF2-GC-GUI.deps.json
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\bin\Debug\net8.0-windows\TF2-GC-GUI.runtimeconfig.json
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\bin\Debug\net8.0-windows\TF2-GC-GUI.dll
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\bin\Debug\net8.0-windows\TF2-GC-GUI.pdb
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\TF2_GC_GUI.Form1.resources
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\TF2-GC-GUI.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\TF2-GC-GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\TF2-GC-GUI.AssemblyInfoInputs.cache
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\TF2-GC-GUI.AssemblyInfo.cs
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\TF2-GC-GUI.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\TF2-GC-GUI.dll
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\refint\TF2-GC-GUI.dll
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\TF2-GC-GUI.pdb
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\TF2-GC-GUI.genruntimeconfig.cache
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\ref\TF2-GC-GUI.dll
+C:\Users\Peter\source\repos\TF2-GC-GUI\TF2-GC-GUI\obj\Debug\net8.0-windows\TF2_GC_GUI.Properties.Resources.resources
