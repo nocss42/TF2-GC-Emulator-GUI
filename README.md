@@ -5,6 +5,7 @@ A GUI for Arwent's TF2 GameCoordinator Emu to add and remove items easily!
 
 # What can it do?
 You can load an inventory.txt and easily add items from a selection of the ENTIRE TF2 Catalouge!
+
 (Note that some items don't have their exact name from ingame, like the Lugermorph being TTG Max Revolver, and Bill's Hat being L4D Hat)
 
 It doesn't include features like changing item levels and adding unusual effects, you will have to do those manually since I don't know how they work.
