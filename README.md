@@ -11,4 +11,4 @@ Also includes a "Random item" button, I thought it would be cool, it still is co
 
 It doesn't include features like changing item levels and adding unusual effects, you will have to do those manually since I don't know how they work.
 You also have to remove items yourself, I'm fine with that so I didn't add the feature, I just wanted to add stuff without constantly looking up indexes.
-## ALL CREDIT TO ARWENT FOR THE EMU, I JUST MADE THE GUI RAAH
+## ALL CREDIT TO [https://cs.rin.ru/forum/viewtopic.php?f=20&t=98246]ARWENT FOR THE EMU, I JUST MADE THE GUI RAAH
