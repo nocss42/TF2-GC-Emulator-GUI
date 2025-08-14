@@ -159,12 +159,29 @@ namespace TF2_GC_GUI
                 // yummy stackoverflow code stolen
                 Random rnd = new Random();
                 // Yes, theres so many medals, makes the funny random button NOT fun :(
+                // THERES SO MANY GOD DAMN
                 var iHateMedalsSOMUCH = items
     .Where(i => !i.Name.Contains("medal", StringComparison.OrdinalIgnoreCase) &&
                 !i.Name.Contains("UGC", StringComparison.OrdinalIgnoreCase) &&
                 !i.Name.Contains("ETF2L", StringComparison.OrdinalIgnoreCase) &&
                 !i.Name.Contains("AsiaFortress", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("LBTF2", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("TF2Connexion", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("Chapelaria", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("ozfortress", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("OWL 1", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("CappingTV", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("RGLgg", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("Fresh Meat", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("Arms Race 1", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("Arms Race 2", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("Arms Race 3", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("PURE League", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("Ready Steady", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("TFCL", StringComparison.OrdinalIgnoreCase) &&
+                !i.Name.Contains("FBTF", StringComparison.OrdinalIgnoreCase) &&
                 !i.Name.Contains("ESL", StringComparison.OrdinalIgnoreCase))
+    // I would've done this in a much better way if I knew how many there were :/
     .ToList();
 
                 if (iHateMedalsSOMUCH.Count > 0)
