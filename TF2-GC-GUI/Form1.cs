@@ -21,6 +21,7 @@ namespace TF2_GC_GUI
         private void Form1_Load(object sender, EventArgs e)
         {
             // mm yess stackoverflow
+            // If you're building from source make sure you put the TF2ITEMS.txt next to your built exe
             string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"TF2Items.txt");
             items = ItemList.LoadItems(path);
             listBox2.DataSource = items;
@@ -160,31 +161,14 @@ namespace TF2_GC_GUI
                 Random rnd = new Random();
                 // Yes, theres so many medals, makes the funny random button NOT fun :(
                 // THERES SO MANY GOD DAMN
+                string[] bannedItems = ["medal", "UGC", "ETF2L", "Brazil Fortress", "AsiaFortress","LBTF2","TF2Connexion","Chapelaria","ozfortress","OWL 1","CappingTV","FreshMeat","Arms Race 1","Arms Race 2","Arms Race 3","PURE League","Ready Steady", "TFCL","FBTF","ESL","Map Stamp", "Map Token", "RGL.gg", "ESEA 6s", "South American","RGLgg","League", "HighLander","RETF2","NHBL"];
                 var iHateMedalsSOMUCH = items
-    .Where(i => !i.Name.Contains("medal", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("UGC", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("ETF2L", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("AsiaFortress", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("LBTF2", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("TF2Connexion", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("Chapelaria", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("ozfortress", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("OWL 1", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("CappingTV", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("RGLgg", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("Fresh Meat", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("Arms Race 1", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("Arms Race 2", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("Arms Race 3", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("PURE League", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("Ready Steady", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("TFCL", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("FBTF", StringComparison.OrdinalIgnoreCase) &&
-                !i.Name.Contains("ESL", StringComparison.OrdinalIgnoreCase))
-    // I would've done this in a much better way if I knew how many there were :/
-    .ToList();
-
+                    .Where(i => !bannedItems.Any(b =>
+                        i.Name.Contains(b, StringComparison.OrdinalIgnoreCase)))
+                    .ToList();
+                // Fixed my horrible effigy of a table
                 if (iHateMedalsSOMUCH.Count > 0)
+                    // used to just be a random defindex value, keeping the check so something doesn't break
                 {
                     var randomItem = iHateMedalsSOMUCH[rnd.Next(iHateMedalsSOMUCH.Count)];
                     sortedStuff.Add(randomItem);
