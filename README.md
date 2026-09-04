@@ -1,7 +1,7 @@
 # TF2-GC-Emulator-GUI
 A GUI for Arwent's TF2 GameCoordinator Emu to add items easily!
-#### DEPRECATED!!! I added this into the emu itself! get it in releases!
-#### (along with a bunch more new features)
+# DEPRECATED!!! I added this into the emu itself! get it in releases!
+## (along with a bunch more new features)
 <img width="439" height="649" alt="image" src="https://github.com/user-attachments/assets/0d60ddc6-0d72-49ab-8834-6e3477c5e2b3" />
 
 # What can it do?
